@@ -81,22 +81,33 @@ section #tree{
     width: 200%;
     height: 266px;
     z-index: 10;
-    background: url(tree.png);
+    background: url(images/tree.png);
     background-position-y:266px ;
 
 }
 section #text{
+    position: absolute;
+    bottom: -300px;
+    left: 0px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 5em;
+    z-index: 9;
+    
+}
+section #text1{
     position: absolute;
     bottom: -400px;
     left: 0px;
     width: 100%;
     color: #fff;
     text-align: center;
-    font-size: 6em;
+    font-size: 5em;
     z-index: 9;
     
 }
-section #text1{
+section #text2{
     position: absolute;
     bottom: -500px;
     left: 0px;
@@ -107,7 +118,7 @@ section #text1{
     z-index: 9;
     
 }
-section #text2{
+section #text3{
     position: absolute;
     bottom: -600px;
     left: 200px;
